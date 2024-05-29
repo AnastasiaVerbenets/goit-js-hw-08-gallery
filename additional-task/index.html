@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Оптимізація подій</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Task List</h1>
+      <form id="taskForm">
+        <div class="form-group">
+          <label for="newTask">New task:</label>
+          <input
+            type="text"
+            id="newTask"
+            class="form-control"
+            placeholder="Enter a new task"
+          />
+          <button type="submit" id="addTask" class="btn btn-primary">
+            Add
+          </button>
+        </div>
+      </form>
+      <ul id="taskList" class="list-group"></ul>
+    </div>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
